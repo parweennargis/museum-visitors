@@ -1,0 +1,21 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": ["airbnb-base", "plugin:security/recommended"],
+  "plugins": ["security"],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-console": "error",
+    "func-names": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "security/detect-object-injection": "off",
+    "max-len": ["error", { "code": 200 }],
+    "object-curly-newline": "off",
+    "no-param-reassign": "off",
+    "no-use-before-define": "off"
+  }
+}
