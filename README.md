@@ -43,7 +43,7 @@ The following steps are required for setup:
 
 1. Install `nodejs` version `12.0.0` or greater.
 2. Clone this git repository and go to root directory.
-3. Install model modules: `npm install`
+3. Install modules: `npm install`
 
 ## Running or Debugging a service
 
